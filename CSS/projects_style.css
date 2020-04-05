@@ -1,0 +1,47 @@
+:root {
+  --main-color: #03b5fc;
+  --inverted-main-color: #000;
+  --header: #1c1c1c;
+}
+
+#projects-container {
+  display: block;
+  width: 90%;
+  margin: 0 0 0 5%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1em;
+}
+
+#projects-container:hover {
+  background-color: aliceblue;
+  border: 10px solid #eeeeee;
+}
+
+.project-box {
+  background: #fff;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-content {
+  background-color: #03b5fc;
+}
+
+.project-bottom {
+  background-color: var(--header);
+
+  border-radius: 20px 20px 0px 0px;
+}
+
+.project-after {
+  background-color: var(--header);
+  width: 100%;
+  height: ;
+  border-radius: 0px 0px 20px 20px;
+}
